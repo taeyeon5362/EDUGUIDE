@@ -1,4 +1,4 @@
-![Captum](./resource/main.png)
+![Captum](./resouce/main.png)
 
 # EDUGUIDE
 안드로이드 학습 계획 도구 및 커뮤니티 애플리케이션
