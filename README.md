@@ -23,12 +23,5 @@
 ### 좋아요 수에 따른 뱃지 부여
 ![Captum](./resouece/badge.png)
 
-![Captum](./resouece/eduguide.mp4)
 
-
-
-
-
-
-
-
+https://github.com/taeyeon5362/EDUGUIDE-by-android_studio/assets/51779879/93daadda-9aaa-49a4-bfad-e38ffa8e870d
