@@ -23,6 +23,7 @@
 ### 좋아요 수에 따른 뱃지 부여
 ![Captum](./resouece/badge.png)
 
+![Captum](./resouece/eduguide.mp4)
 
 
 
