@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name" translatable="false">EduGuide</string>
+
+    <!--포스팅페이지-->
+    <string name="title_please" translatable="false">&#160;&#160;제목을 입력해주세요</string>
+    <string name="content_please" translatable="false">&#160;&#160;내용을 입력해주세요</string>
+    <string name="tag_please" translatable="false">&#160;&#160;태그를 입력해주세요</string>
+    <string name="desc" translatable="false">설명</string>
+    <string name="tag" translatable="false">태그</string>
+
+    <!--마이페이지-->
+    <string name="이름" translatable="false">&#160;&#160;닉네임</string>
+    <string name="자기소개" translatable="false">&#160;&#160;자기소개</string>
+    <string name="logo_description" translatable="false">로고</string>
+    <string name="profile_description" translatable="false">프로필 사진</string>
+    <string name="edit_profile_button_text" translatable="false">프로필 편집</string>
+    <string name="settings_description" translatable="false">설정</string>
+    <string name="edit_profile" translatable="false">프로필 편집</string>
+    <string name="edit_personinfo" translatable="false">개인정보 설정</string>
+    <string name="edit_inquiry" translatable="false">문의</string>
+    <string name="edit_notice" translatable="false">공지사항</string>
+    <string name="edit_logout" translatable="false">SIGN OUT</string>
+    <string name="nickname_edit" translatable="false">&#160;&#160;닉네임</string>
+    <string name="selfinfo_edit" translatable="false">&#160;&#160;자기소개</string>
+    <string name="proedit_com" translatable="false">SUBMIT</string>
+    <string name="proedit_title" translatable="false">프로필 편집</string>
+    <string name="my_guide" translatable="false">내 가이드</string>
+    <string name="save_contents" translatable="false">저장 목록</string>
+    <string name="name" translatable="false">&#160;&#160;이름</string>
+    <string name="emailaddr" translatable="false">&#160;&#160;이메일</string>
+    <string name="birth" translatable="false">&#160;&#160;생년월일</string>
+    <string name="phonenum" translatable="false">&#160;&#160;전화번호</string>
+    <string name="chagepw" translatable="false">비밀번호 변경</string>
+    <string name="withdrawal" translatable="false">회원 탈퇴</string>
+    <string name="save" translatable="false">저장</string>
+    <string name="personalinfo" translatable="false">개인정보 설정</string>
+    <string name="inquiry" translatable="false">문의</string>
+    <string name="qr_code_description" translatable="false">큐알코드 이미지</string>
+    <string name="qrcode_link" translatable="false">https://open.kakao.com/o/sNIpwFdf</string>
+    <string name="howto_inquiry" translatable="false">※카카오톡 오픈채팅방을 이용해 문의 바랍니다.※</string>
+    <string name="current_password" translatable="false">현재 비밀번호</string>
+    <string name="new_password" translatable="false">새 비밀번호</string>
+    <string name="confirm_password" translatable="false">새 비밀번호 확인</string>
+    <string name="chagepw1" translatable="false">비밀번호 변경</string>
+    <string name="pass" translatable="false">&#160;&#160;비밀번호</string>
+    <string name="id" translatable="false">&#160;&#160;아이디</string>
+</resources>

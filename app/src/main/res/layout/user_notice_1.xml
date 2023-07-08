@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:id="@+id/notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="공지사항"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/notice1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Eduguide 런칭 안내"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        android:gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/notice1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:text="안녕하세요! [Eduguide] 개발팀입니다.\n [Eduguide]의 공식 런칭이 다가왔습니다!\n[Eduguide]는 학습 가이드를 제공하고 작성할 수 있는 앱으로, 사용자들은 개인 학습 목표를 설정하고 자신의 학습가이드를 작성 할 수 있습니다. 커뮤니티 기능을 통해 다른 사용자들과 소통할 수도 있습니다. [Eduguide]는 구글 플레이 스토어에서 다운로드 가능합니다. 사용자들의 의견을 소중히 여기며, 런칭 이후에도 업데이트를 통해 기능과 개선 사항을 제공할 예정입니다. [Eduguide] 공지사항에서 자세한 정보와 사용법을 확인할 수 있습니다. \n[Eduguide]의 성공은 여러분과 함께 합니다. 곧 여러분의 손에 전달될 [Eduguide]으로 함께 나은 학습 경험을 만들어나가기를 기대합니다. 감사합니다!"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

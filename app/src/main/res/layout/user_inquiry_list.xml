@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <!-- 로고 이미지 -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="102dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/loading_image" />
+
+    <TextView
+        android:id="@+id/inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inquiry"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/how_inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/howto_inquiry"
+        android:textColor="@color/comment_color"
+        android:textSize="15sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/qr_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:autoLink="web"
+        android:minHeight="48dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/qrcode_link"
+        android:textColor="#00838F"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="400dp"
+        android:layout_height="394dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/qr_code_description"
+        android:src="@drawable/user_qr_code" />
+
+</LinearLayout>

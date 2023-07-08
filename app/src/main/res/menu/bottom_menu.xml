@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_feed"
+        android:enabled="true"
+        android:icon="@drawable/bottombar_baseline_feed_24"
+        android:title="피드"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:enabled="true"
+        android:icon="@drawable/bottombar_baseline_search_24"
+        android:title="검색"/>
+
+    <item
+        android:id="@+id/action_tool"
+        android:enabled="true"
+        android:icon="@drawable/bottombar_baseline_add_24"
+        android:title="툴"/>
+
+    <item
+        android:id="@+id/action_notification"
+        android:enabled="true"
+        android:icon="@drawable/bottombar_baseline_notifications_none_24"
+        android:title="알림"/>
+
+    <item
+        android:id="@+id/action_mypage"
+        android:enabled="true"
+        android:icon="@drawable/bottombar_baseline_perm_identity_24"
+        android:title="마이페이지"/>
+</menu>

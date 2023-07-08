@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "120087877167",
+    "project_id": "eduguidedb",
+    "storage_bucket": "eduguidedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120087877167:android:332f8ca20487b71c78d8da",
+        "android_client_info": {
+          "package_name": "com.capston.eduguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120087877167-m51nfikcclsdg5stkp27qnvsfsupia8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEEWhFPz9tGv02x5pYTijvIWftW79ZKZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120087877167-m51nfikcclsdg5stkp27qnvsfsupia8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

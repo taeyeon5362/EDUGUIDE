@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:id="@+id/notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="공지사항"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/notice3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="회원가입 방법 안내"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        android:gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/notice3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="[Eduguide] 회원이 되어 더 많은 기능과 혜택을 이용해보세요! 아래는 회원가입 방법에 대한 안내입니다.\n\n 1. [Eduguide] 앱을 실행한 후, 로그인 화면에서 회원가입(SIGN UP) 버튼을 탭합니다.\n 2. 회원가입 페이지로 이동하면, 아래의 정보를 입력합니다. \n- 아이디: 사용할 고유한 아이디를 입력합니다.\n - 비밀번호: 안전하고 기억하기 쉬운 비밀번호를 입력합니다. \n - 이메일: 가입에 사용할 이메일 주소를 입력합니다. \n - 핸드폰 번호: 가입에 사용할 핸드폰 번호를 입력합니다. \n - 이름: 본명을 입력합니다. \n - 나이: 현재 나이를 입력합니다. \n 3. 모든 필수 정보를 입력한 후, SIGN UP 버튼을 클릭하여 회원가입을 완료합니다.\n 4. 회원가입이 성공적으로 이루어지면, [학습가이드앱 이름]의 다양한 기능과 서비스를 자유롭게 이용할 수 있습니다. \n\n 회원가입 시 제공한 개인 정보는 개인정보 보호 정책에 따라 안전하게 보호되며, [Eduguide] 서비스와 관련된 목적으로만 사용됩니다. \n\n 회원가입을 통해 [Eduguide]의 회원이 되시면, 개인적인 학습 목표 설정, 커뮤니티 활동, 추가 기능 등을 활용할 수 있습니다. 더욱 향상된 학습 경험을 제공하기 위해 최선을 다 하겠습니다."
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentX"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    />
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="유저의 아이디"
+                    android:textColor="@color/text_color"
+                    android:layout_toRightOf="@id/userImage"/>
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/text_color"
+                    android:text="Back"/>
+
+            </RelativeLayout>
+
+            <com.capston.eduguide.post.MeasuredViewPager
+                android:id="@+id/vp"
+                android:contentDescription="\\뷰페이저-크기는 맞춤식(MeasuredViewPager사용)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/post_down_stroke">
+
+            </com.capston.eduguide.post.MeasuredViewPager>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/commentMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/comment_color"
+                    android:text="본문 내용 표시"
+                    android:textSize="18sp" />
+                <!--android:text=""-->
+
+                <TextView
+                    android:id="@id/tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/commentMain"
+                    android:background="@drawable/post_down_stroke"
+                    android:textColor="@color/comment_color"
+                    android:text="본문 태그 내용 표시"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/commentView"
+                android:layout_width="match_parent"
+                android:layout_height="559dp"
+                android:layout_below="@id/tag"
+                android:layout_marginTop="3dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/input_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/userImage1"
+            android:layout_width="102dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:hint="댓글을 입력하세요"
+            android:textColor="@color/comment_color" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_button"
+            android:textColor="@color/text_color"
+            android:text="SUBMIT"/>
+
+    </LinearLayout>
+
+</LinearLayout>
