@@ -24,4 +24,7 @@
 ![Captum](./resouece/badge.png)
 
 
+### prototype
+<img src="hhttps://github.com/taeyeon5362/EDUGUIDE/blob/main/resouece/prototype_1.png" width="300"/> <img src="hhttps://github.com/taeyeon5362/EDUGUIDE/blob/main/resouece/prototype_2.png" width="300"/>
+
 https://github.com/taeyeon5362/EDUGUIDE-by-android_studio/assets/51779879/93daadda-9aaa-49a4-bfad-e38ffa8e870d
